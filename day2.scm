@@ -13,7 +13,6 @@
     (newline (current-error-port))
     (exit 1))
 
-  ;; Part 1
   (define reports
     (with-input-from-file (car (command-line-arguments))
       (lambda ()
