@@ -1,5 +1,5 @@
 #!/bin/env -S csi -script
-(module (aoc day2) ()
+(module (aoc day3) ()
   (import scheme
           (chicken base)
           (chicken format)
